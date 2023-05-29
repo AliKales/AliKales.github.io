@@ -1,60 +1,66 @@
-<!DOCTYPE html><html><head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
+<!DOCTYPE html>
+<html lang="en">
 
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
-
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
-  <base href="/">
-
+<head>
   <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
-
-  <!-- iOS meta tags & icons -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="alikales">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
-
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png">
-
-  <title>alikales</title>
-  <link rel="manifest" href="manifest.json">
-
-  <script>
-    // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '1244416880';
-  </script>
-  <!-- This script adds the flutter initialization JS code -->
-  <script src="flutter.js" defer=""></script>
-  <link rel="stylesheet" type="text/css" href="splash/style.css">
-  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
-  <script src="splash/splash.js"></script>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/index.css">
+  <title>Ali Kaleş</title>
 </head>
+
 <body>
-  <script>
-    window.addEventListener('load', function(ev) {
-      // Download main.dart.js
-      _flutter.loader.loadEntrypoint({
-        serviceWorker: {
-          serviceWorkerVersion: serviceWorkerVersion,
-        }
-      }).then(function(engineInitializer) {
-        return engineInitializer.initializeEngine();
-      }).then(function(appRunner) {
-        return appRunner.runApp();
-      });
-    });
-  </script>
+  <div class="page">
+    <div style="height: 3%;"></div>
+    <p id="name">ALİ KALEŞ</p>
+    <div style="height: 3%;"></div>
+    <p class="description">Mobile Application Developer</p>
+  </div>
+  <p class="description">About Me</p>
+  <p class="description-small">Hello, I'm Ali, a dedicated, experienced and self-taught mobile application developer. With over 5
+    years of expertise in software development, I have honed my skills and specialized in mobile technologies. My
+    passion lies in crafting stunning and intuitive applications that not only address real-world problems but also
+    bring joy to users.
+    <br>
+    <br>
+    Throughout my career, I have worked with a diverse range of platforms and programming languages, including SwiftUI
+    for iOS development and Kotlin/Java for Android applications. With each project, I strive for excellence and aim
+    to establish myself as a well-known and respected mobile application developer.
+    <br>
+    <br>
+    Staying at the forefront of the industry is crucial to me. I actively keep up with the latest trends and
+    technologies in the mobile app realm, ensuring that I can deliver cutting-edge solutions. Flutter, with its
+    versatility and powerful capabilities, has become my go-to framework for building exceptional applications.
+  </p>
+  <p class="description">My Skills</p>
+  <div id="skills-div">
+    <div class="text-container" style="background-color: #282ae8;">
+      <p class="skill-text">Flutter</p>
+    </div>
+    <div class="text-container" style="background-color: #282ae8;">
+      <p class="skill-text">Firebase</p>
+    </div>
+  </div>
+  <div id="skills-div">
+    <div class="text-container" style="background-color: #490C86DE;">
+      <p class="skill-text">Kotlin/Java</p>
+    </div>
+    <div class="text-container" style="background-color: #490C86DE;">
+      <p class="skill-text">SwiftUI</p>
+    </div>
+  </div>
+  <div id="skills-div">
+    <div class="text-container" style="background-color: #fff480;">
+      <p class="skill-text" style="color: black;">Javascript</p>
+    </div>
+    <div class="text-container" style="background-color: #fff480;">
+      <p class="skill-text" style="color: black;">Python</p>
+    </div>
+  </div>
+  <p class="description">My Works</p>
+  <img src="images/alldrop-phone.png" alt="">
 
+  <div style="height: 50dvh;"></div>
+</body>
 
-</body></html>
+</html>
