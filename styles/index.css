@@ -99,3 +99,13 @@ html {
     display: flex;
     justify-content: flex-start;
 }
+
+.rounded-button {
+    border-radius: 50px;
+    padding: 20px 50px;
+    border: none;
+    cursor: pointer;
+    font-size: xx-large;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
