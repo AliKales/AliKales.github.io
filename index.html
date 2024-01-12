@@ -10,13 +10,20 @@
 </head>
 
 <body>
+  <script src="index.js"></script>
+  <div>
+    <button class="rounded-button" onclick="aboutMe()">About Me</button>
+    <button class="rounded-button" onclick="mySkills()">My Skills</button>
+    <button class="rounded-button" onclick="myWorks()">My Works</button>
+    <button class="rounded-button" onclick="mySocial()">Social</button>
+  </div>
   <div class="page">
     <div style="height: 3%;"></div>
     <p id="name">ALİ KALEŞ</p>
     <div style="height: 3%;"></div>
     <p class="description" style="padding-top: 0vh;">Mobile Application Developer</p>
   </div>
-  <p class="description">About Me</p>
+  <p id="aboutMeTitle" class="description">About Me</p>
   <p class="description-small">Hello, I'm Ali, a dedicated, experienced and self-taught mobile application developer.
     With over 5
     years of expertise in software development, I have honed my skills and specialized in mobile technologies. My
@@ -33,7 +40,7 @@
     technologies in the mobile app realm, ensuring that I can deliver cutting-edge solutions. Flutter, with its
     versatility and powerful capabilities, has become my go-to framework for building exceptional applications.
   </p>
-  <p class="description">My Skills</p>
+  <p id="mySkillsTitle" class="description">My Skills</p>
   <div id="skills-div">
     <div class="text-container" style="background-color: #282ae8;">
       <p class="skill-text">Flutter</p>
@@ -58,7 +65,15 @@
       <p class="skill-text" style="color: black;">Python</p>
     </div>
   </div>
-  <p class="description">My Works</p>
+  <div id="skills-div">
+    <div class="text-container" style="background-color: #e20000;">
+      <p class="skill-text" style="color: black;">Firebase</p>
+    </div>
+    <div class="text-container" style="background-color: #e20000;">
+      <p class="skill-text" style="color: black;">REST</p>
+    </div>
+  </div>
+  <p id="myWorksTitle" class="description">My Works</p>
   <div class="div-work">
     <div>
       <div style="display: flex; flex-direction: row; align-items: center;">
@@ -73,6 +88,21 @@
     </div>
     <div id="ss">
       <img src="images/hablo-phone.png" alt="">
+    </div>
+  </div>
+  <div class="div-work">
+    <div>
+      <div style="display: flex; flex-direction: row; align-items: center;">
+        <p style="color: aliceblue; font-size: 120px;">PINLOGY</p>
+        <img src="images/pinlogy.png" alt="" style="width: 15%; margin-left: 24%; border-radius: 30px">
+      </div>
+      <p style="color: aliceblue; font-size: 40px;">Pinlogy is a password manager. It will create secure passwords and store them for you.</p>
+      <a href="https://play.google.com/store/apps/details?id=com.caroby.pinlogy" target="_blank">
+        <img src="images/playstore.png" alt="" style="height: 10dvh;">
+      </a>
+    </div>
+    <div id="ss">
+      <img src="images/pinlogy-phone.png" alt="">
     </div>
   </div>
   <div class="div-work">
@@ -109,7 +139,7 @@
       <img src="images/fdlm-phone.png" alt="">
     </div>
   </div>
-  <p class="description">My Socials</p>
+  <p id="mySocialTitle" class="description">My Socials</p>
   <a href="https://github.com/AliKales" target="_blank">
     <button class="rounded-button" style="background-color: black; color: aliceblue;">GitHub</button>
   </a>
@@ -117,9 +147,9 @@
     <button class="rounded-button" style="background-color: #0277b5; color: aliceblue;">LinkedIn</button>
   </a>
   <a href="https://play.google.com/store/apps/developer?id=CAROBY" target="_blank">
-    <button class="rounded-button" style="background-color: #0a3043; color: #3ddb84;">LinkedIn</button>
+    <button class="rounded-button" style="background-color: #0a3043; color: #3ddb84;">Play store</button>
   </a>
-
+  <button class="rounded-button" style="background-color: #00625f; color: aliceblue;" onclick="sendEmail()">Email</button>
   <div style="height: 30dvh;"></div>
 </body>
 
