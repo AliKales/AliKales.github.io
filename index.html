@@ -2,155 +2,145 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/index.css">
-  <title>Ali Kaleş</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=League+Spartan&display=swap">
+    <title>Ali Kaleş</title>
 </head>
 
 <body>
-  <script src="index.js"></script>
-  <div>
-    <button class="rounded-button" onclick="aboutMe()">About Me</button>
-    <button class="rounded-button" onclick="mySkills()">My Skills</button>
-    <button class="rounded-button" onclick="myWorks()">My Works</button>
-    <button class="rounded-button" onclick="mySocial()">Social</button>
-  </div>
-  <div class="page">
-    <div style="height: 3%;"></div>
-    <p id="name">ALİ KALEŞ</p>
-    <div style="height: 3%;"></div>
-    <p class="description" style="padding-top: 0vh;">Mobile Application Developer</p>
-  </div>
-  <p id="aboutMeTitle" class="description">About Me</p>
-  <p class="description-small">Hello, I'm Ali, a dedicated, experienced and self-taught mobile application developer.
-    With over 5
-    years of expertise in software development, I have honed my skills and specialized in mobile technologies. My
-    passion lies in crafting stunning and intuitive applications that not only address real-world problems but also
-    bring joy to users.
-    <br>
-    <br>
-    Throughout my career, I have worked with a diverse range of platforms and programming languages, including SwiftUI
-    for iOS development and Kotlin/Java for Android applications. With each project, I strive for excellence and aim
-    to establish myself as a well-known and respected mobile application developer.
-    <br>
-    <br>
-    Staying at the forefront of the industry is crucial to me. I actively keep up with the latest trends and
-    technologies in the mobile app realm, ensuring that I can deliver cutting-edge solutions. Flutter, with its
-    versatility and powerful capabilities, has become my go-to framework for building exceptional applications.
-  </p>
-  <p id="mySkillsTitle" class="description">My Skills</p>
-  <div id="skills-div">
-    <div class="text-container" style="background-color: #282ae8;">
-      <p class="skill-text">Flutter</p>
+    <div id="start">
+        <div id="start-image">
+            <div id="top">
+                <a href="#about-me">ABOUT ME</a>
+                <a href="#my-skills">MY SKILLS</a>
+                <a href="#my-works">MY WORKS</a>
+            </div>
+            <div class="typewriter">
+                <h1 style="color: #cc005f; font-size: 24px; padding: 0; margin: 0;">print('Hello World!')</h1>
+            </div>
+            <h4 style="color: white; font-size: clamp(40px, 10vw, 22px); padding: 0; margin: 20px;">I'm Ali KALEŞ
+            </h4>
+            <h3 style="color: white; font-size: 16px; padding: 0; margin: 0; font-weight: lighter;">MOBILE APP |
+                BACK-END
+                DEVELOPER</h3>
+            <a href="mailto:ali.kales@hotmail.com" class="custom-button">CONTACT ME</a>
+            <div id="socials" style="position: absolute; bottom: 20px;">
+                <a href="https://play.google.com/store/apps/developer?id=CAROBY" target="_blank"><object
+                        data="svgs/google-play.svg" type="image/svg+xml"></object></a>
+                <a href="https://github.com/AliKales" target="_blank"><object data="svgs/github.svg"
+                        type="image/svg+xml"></object></a>
+                <a href="https://twitter.com/aliikaless" target="_blank"><object data="svgs/twitter.svg"
+                        type="image/svg+xml"></object></a>
+                <a href="https://www.instagram.com/ali.kaless/" target="_blank"><object data="svgs/instagram.svg"
+                        type="image/svg+xml"></object></a>
+                <a href="https://www.linkedin.com/in/alikales/" target="_blank"><object data="svgs/linkedin.svg"
+                        type="image/svg+xml"></object></a>
+            </div>
+        </div>
     </div>
-    <div class="text-container" style="background-color: #282ae8;">
-      <p class="skill-text">Firebase</p>
+    <div id="about-me" class="custom-div">
+        <h1 style="color: #cc005f; text-align: center; margin-top: 80px; margin-bottom: 30px; font-size: 40px;">Summary
+        </h1>
+        <div class="row">
+            <img id="img-me" src="images/me.jpg" alt="Circle Image">
+            <h3 style="text-align: center;">I am a 21 years-old versatile software developer with a primary focus on
+                mobile
+                application
+                development, coupled with backend technologies. With 5 years of hands-on experience, I have
+                successfully developed many projects that showcase my proficiency in Flutter, Firebase, RESTFUL, Python,
+                Go.
+                <br>
+                <br>
+                Able to work either remotely or in office depends on the company
+                <br>
+                <br>
+                From Bursa/TURKIYE
+            </h3>
+        </div>
     </div>
-  </div>
-  <div id="skills-div">
-    <div class="text-container" style="background-color: #490C86DE;">
-      <p class="skill-text">Kotlin/Java</p>
+    <div class="divider"></div>
+    <div id="my-skills" class="section">
+        <h1 style="color: #cc005f; text-align: center; margin-top: 80px; margin-bottom: 30px; font-size: 40px;">My
+            Skills
+        </h1>
+        <div class="row">
+            <button class="gm-btn gb-cutter">Flutter</button>
+            <button class="gm-btn gb-cutter">Dart</button>
+        </div>
+        <div class="row">
+            <button class="gm-btn gb-cutter">Firebase</button>
+            <button class="gm-btn gb-cutter">PostgreSQL</button>
+        </div>
+        <div class="row">
+            <button class="gm-btn gb-cutter">Kotlin</button>
+            <button class="gm-btn gb-cutter">SwiftUI</button>
+        </div>
+        <div class="row">
+            <button class="gm-btn gb-cutter">RESTful API</button>
+            <button class="gm-btn gb-cutter">Go</button>
+        </div>
+        <div class="row">
+            <button class="gm-btn gb-cutter">Javascript</button>
+            <button class="gm-btn gb-cutter">Python</button>
+        </div>
     </div>
-    <div class="text-container" style="background-color: #490C86DE;">
-      <p class="skill-text">SwiftUI</p>
+    <div style="height: 15px;"></div>
+    <div class="divider"></div>
+    <div id="my-works" class="section">
+        <h1 style="color: #cc005f; text-align: center; margin-top: 80px; margin-bottom: 30px; font-size: 40px;">My
+            Works</h1>
+        <div class="works">
+            <img class="work-ss" src="images/hablo-phone.png" alt="First Image">
+            <div class="work-info">
+                <h3>Hablo Talk</h3>
+                <img class="work-logo" src="images/hablotalk.png" alt="Logo">
+                <p class="work-info-text">Hablo Talk is a chat application. People can make new friends from around the
+                    world and chat with
+                    them. Voice and video chat is also available. It has +1000 downloads on Google Play.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.caroby.hablotalk" target="_blank"
+                    class="custom-button" style="color: black;">SEE ON PLAY STORE</a>
+            </div>
+        </div>
+        <div class="works">
+            <img class="work-ss" src="images/pinlogy-phone.png" alt="First Image">
+            <div class="work-info">
+                <h3>Pinlogy</h3>
+                <img class="work-logo" src="images/pinlogy.png" alt="Logo">
+                <p class="work-info-text">Pinlogy is a password manager app. You can create secure passwords and store
+                    them encrypted. You can access your passwords on ANDROID - WEB - MAC - WINDOWS - IOS(soon)</p>
+                <a href="https://pinlogy.web.app/" target="_blank" class="custom-button"
+                    style="color: black; margin-bottom: 20px;">GO TO
+                    WEBSITE</a>
+            </div>
+        </div>
+        <div class="works">
+            <img class="work-ss" src="" alt="">
+            <div class="work-info">
+                <h3>Latest Go Project</h3>
+                <img class="work-logo" src="images/go.png" alt="Logo">
+                <p class="work-info-text">An API project with Gin - GORM - PostgreSQL. There is an authentication system
+                    with tokens. Creating Store, Adding Products And a Cart System</p>
+                <a href="https://github.com/AliKales/go-shop" target="_blank" class="custom-button"
+                    style="color: black;">GO TO
+                    CODE</a>
+            </div>
+        </div>
+        <a href="https://github.com/AliKales" target="_blank" class="custom-button" style="color: black; margin-top: 70px;">FOR MORE PLEASE VISIT MY GITHUB</a>
     </div>
-  </div>
-  <div id="skills-div">
-    <div class="text-container" style="background-color: #fff480;">
-      <p class="skill-text" style="color: black;">Javascript</p>
+    <div style="height: 15px;"></div>
+    <div class="divider"></div>
+    <div class="section">
+        <h1 style="color: #cc005f; text-align: center; margin-top: 80px; margin-bottom: 30px; font-size: 40px;">My Study
+        </h1>
+        <div class="row">
+            <a href="https://www.anadolu.edu.tr/en" target="_blank" style="font-size: 26px;">Anadolu University </a>
+            <p style="font-size: 26px; margin-left: 7px;">- Programming</p>
+        </div>
     </div>
-    <div class="text-container" style="background-color: #fff480;">
-      <p class="skill-text" style="color: black;">Python</p>
-    </div>
-  </div>
-  <div id="skills-div">
-    <div class="text-container" style="background-color: #e20000;">
-      <p class="skill-text" style="color: black;">Firebase</p>
-    </div>
-    <div class="text-container" style="background-color: #e20000;">
-      <p class="skill-text" style="color: black;">REST</p>
-    </div>
-  </div>
-  <p id="myWorksTitle" class="description">My Works</p>
-  <div class="div-work">
-    <div>
-      <div style="display: flex; flex-direction: row; align-items: center;">
-        <p style="color: aliceblue; font-size: 120px;">HABLO<br>TALK</p>
-        <img src="images/hablotalk.png" alt="" style="width: 15%; margin-left: 24%; border-radius: 30px">
-      </div>
-      <p style="color: aliceblue; font-size: 40px;">Hablo Talk is an application for people who wants to make new
-        friends from all over the world!</p>
-      <a href="https://play.google.com/store/apps/details?id=com.caroby.hablotalk" target="_blank">
-        <img src="images/playstore.png" alt="" style="height: 10dvh;">
-      </a>
-    </div>
-    <div id="ss">
-      <img src="images/hablo-phone.png" alt="">
-    </div>
-  </div>
-  <div class="div-work">
-    <div>
-      <div style="display: flex; flex-direction: row; align-items: center;">
-        <p style="color: aliceblue; font-size: 120px;">PINLOGY</p>
-        <img src="images/pinlogy.png" alt="" style="width: 15%; margin-left: 24%; border-radius: 30px">
-      </div>
-      <p style="color: aliceblue; font-size: 40px;">Pinlogy is a password manager. It will create secure passwords and store them for you.</p>
-      <a href="https://play.google.com/store/apps/details?id=com.caroby.pinlogy" target="_blank">
-        <img src="images/playstore.png" alt="" style="height: 10dvh;">
-      </a>
-    </div>
-    <div id="ss">
-      <img src="images/pinlogy-phone.png" alt="">
-    </div>
-  </div>
-  <div class="div-work">
-    <div>
-      <div style="display: flex; flex-direction: row; align-items: center;">
-        <p style="color: aliceblue; font-size: 120px;">AllDrop</p>
-        <img src="images/alldrop.png" alt="" style="width: 15%; margin-left: 24%; border-radius: 30px">
-      </div>
-      <p style="color: aliceblue; font-size: 40px;">AllDrop will let you send your files from one device to other
-        devices. It is available on Mac-Android-Windows and soon IOS. Flutter is used for Windows and Android. SwiftUI
-        for Mac.</p>
-      <a href="https://alldrop.net" target="_blank">
-        <p style="color: aliceblue; font-size: 40px;">alldrop.net</p>
-      </a>
-    </div>
-    <div id="ss">
-      <img src="images/alldrop-phone.png" alt="">
-    </div>
-  </div>
-  <div class="div-work">
-    <div>
-      <div style="display: flex; flex-direction: row; align-items: center;">
-        <p style="color: aliceblue; font-size: 120px;">FDLM</p>
-        <img src="images/fdlm.png" alt="" style="width: 15%; margin-left: 30%; border-radius: 30px">
-      </div>
-      <p style="color: aliceblue; font-size: 40px;">FDLM (Free Download Listen Music) is a free app to listen anything
-        that available in Youtube. You copy the link of video you want to listen (generally songs) and paste it in the
-        app. It will download it and let you listen what you downloaded. You can also create playlists.</p>
-      <a href="https://alikales.github.io/dlm/" target="_blank">
-        <p style="color: aliceblue; font-size: 40px;">alikales.github.io/dlm/</p>
-      </a>
-    </div>
-    <div id="ss">
-      <img src="images/fdlm-phone.png" alt="">
-    </div>
-  </div>
-  <p id="mySocialTitle" class="description">My Socials</p>
-  <a href="https://github.com/AliKales" target="_blank">
-    <button class="rounded-button" style="background-color: black; color: aliceblue;">GitHub</button>
-  </a>
-  <a href="https://www.linkedin.com/in/alikales/" target="_blank">
-    <button class="rounded-button" style="background-color: #0277b5; color: aliceblue;">LinkedIn</button>
-  </a>
-  <a href="https://play.google.com/store/apps/developer?id=CAROBY" target="_blank">
-    <button class="rounded-button" style="background-color: #0a3043; color: #3ddb84;">Play store</button>
-  </a>
-  <button class="rounded-button" style="background-color: #00625f; color: aliceblue;" onclick="sendEmail()">Email</button>
-  <div style="height: 30dvh;"></div>
+    <div style="height: 15px;"></div>
+    <div class="divider"></div>
 </body>
 
 </html>

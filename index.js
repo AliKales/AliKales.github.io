@@ -13,7 +13,3 @@ function myWorks() {
 function mySocial() {
     document.getElementById("mySocialTitle").scrollIntoView();
 }
-
-function sendEmail() {
-    window.open('mailto:ali.kales@hotmail.com');
-}
