@@ -1,162 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ali Kaleş is a full stack and mobile developer in Bursa, Türkiye. Creator of ichibase and Hablo Talk, building applications for iOS, Android, and the web.">
+  <meta name="theme-color" content="#141319">
+  <meta property="og:title" content="Ali Kaleş — Full Stack & Mobile Developer">
+  <meta property="og:description" content="From database design to mobile interfaces. Explore ichibase, Hablo Talk, and selected work by Ali Kaleş.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://alikales.github.io/">
+  <meta property="og:image" content="https://alikales.github.io/images/me.jpg">
+  <link rel="canonical" href="https://alikales.github.io/">
+  <link rel="icon" href="favicon.png">
   <link rel="stylesheet" href="styles/index.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=League+Spartan&display=swap">
-  <title>Ali Kaleş</title>
+  <title>Ali Kaleş — Full Stack & Mobile Developer</title>
 </head>
-
 <body>
-  <div id="start">
-    <div id="start-image">
-      <div id="top">
-        <a href="#about-me">ABOUT ME</a>
-        <a href="#my-skills">MY SKILLS</a>
-        <a href="#my-works">MY WORKS</a>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="wrap nav" aria-label="Main navigation">
+      <a class="wordmark" href="#start" aria-label="Ali Kaleş home">ali kaleş<span>.</span></a>
+      <div class="nav-links"><a href="#about-me">About</a><a href="#experience">Experience</a><a href="#my-works">Work</a><a href="#contact">Contact <span aria-hidden="true">↗</span></a></div>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero" id="start" aria-labelledby="hero-title">
+      <div class="wrap hero-content">
+        <p class="eyebrow">FULL STACK &amp; MOBILE DEVELOPER</p>
+        <h1 id="hero-title">Hi, I'm Ali Kaleş<span>.</span></h1>
+        <p class="hero-lead">I build products.<br>From the backend to the app store.</p>
+        <p class="hero-description">I develop applications for iOS, Android, and the web — bringing together thoughtful interfaces, real-time data, and the infrastructure behind them.</p>
+        <div class="actions"><a class="button primary" href="#my-works">Explore my work <span aria-hidden="true">↘</span></a><a class="button outline" href="ali-kales-cv.docx" download>Download CV <span aria-hidden="true">↓</span></a></div>
+        <div class="hero-bottom"><span>Bursa, Türkiye</span><div><a href="https://github.com/AliKales">GitHub ↗</a><a href="https://www.linkedin.com/in/alikales/">LinkedIn ↗</a></div></div>
       </div>
-      <div class="typewriter">
-        <h1 style="color: #cc005f; font-size: 24px; padding: 0; margin: 0;">print('Hello World!')</h1>
+    </section>
+    <section class="wrap section about" id="about-me" aria-labelledby="about-title">
+      <div class="section-label"><span>01 / ABOUT</span><h2 id="about-title">An idea is just<br>the beginning.</h2></div>
+      <div class="about-content"><img class="portrait" src="images/me.jpg" alt="Ali Kaleş" width="591" height="709" loading="lazy"><div><p class="intro">I'm a full stack and mobile developer who takes products from an idea to a working release.</p><p>My work spans native iOS apps with SwiftUI, cross-platform development with Flutter, and web applications with Vue, Nuxt, React, and Next.js. I also build the APIs, databases, and authentication that connect everything.</p><p>I'm the creator of <strong>ichibase</strong> and <strong>Hablo Talk</strong>. Previously, I worked at Seerkel, developing a social platform across mobile and backend systems.</p><a class="text-link" href="mailto:ali_kales@hotmail.com">Let's work together <span aria-hidden="true">↗</span></a></div></div>
+    </section>
+    <section class="experience-section" id="experience" aria-labelledby="experience-title">
+      <div class="wrap section"><div class="section-heading"><div><p class="eyebrow">02 / EXPERIENCE</p><h2 id="experience-title">What I've been building.</h2></div><a class="text-link" href="https://www.linkedin.com/in/alikales/">View LinkedIn ↗</a></div>
+        <div class="experience-list">
+          <article class="experience-row"><div class="period">Jan 2026 — Present<span>Remote</span></div><div><h3>Developer &amp; Owner <span>· ichibase</span></h3><p>Building a backend platform that brings PostgreSQL, MongoDB, Typesense, and Redis together, with authentication written in Go and deployment on a VPS.</p><ul class="tags" aria-label="ichibase technologies"><li>Go</li><li>PostgreSQL</li><li>MongoDB</li><li>Typesense</li><li>Redis</li></ul></div></article>
+          <article class="experience-row"><div class="period">Apr 2024 — Present<span>Remote</span></div><div><h3>Founder &amp; Developer <span>· Hablo Talk</span></h3><p>Designed, built, and published a friend-making and chat platform. Developed iOS with SwiftUI, Android with Flutter, and the web experience with Nuxt and Vue, backed by Supabase and PostgreSQL.</p><ul class="tags" aria-label="Hablo Talk technologies"><li>SwiftUI</li><li>Flutter</li><li>Nuxt</li><li>Vue</li><li>Supabase</li></ul></div></article>
+          <article class="experience-row"><div class="period">Mar 2024 — Feb 2026<span>Madrid, Spain · Remote</span></div><div><h3>Full Stack Engineer <span>· Seerkel</span></h3><p>Developed cross-platform mobile applications with Flutter and backend services with Node.js and TypeScript. Used Firebase for authentication, cloud storage, and real-time data, supporting delivery on iOS and Android.</p><ul class="tags" aria-label="Seerkel technologies"><li>Flutter</li><li>Node.js</li><li>TypeScript</li><li>Firebase</li></ul></div></article>
+        </div>
       </div>
-      <h4 style="color: white; font-size: clamp(40px, 10vw, 22px); padding: 0; margin: 20px;">I'm Ali KALEŞ
-      </h4>
-      <h3 style="color: white; font-size: 16px; padding: 0; margin: 0; font-weight: lighter;">MOBILE APP |
-        BACK-END
-        DEVELOPER</h3>
-      <a href="mailto:ali.kales@hotmail.com" class="custom-button">CONTACT ME</a>
-      <a href="ali-kales-cv.docx" target="_blank" class="custom-button">DOWNLOAD CV</a>
-      <div id="socials" style="position: absolute; bottom: 20px;">
-        <a href="https://play.google.com/store/apps/developer?id=CAROBY" target="_blank"><object
-            data="svgs/google-play.svg" type="image/svg+xml"></object></a>
-        <a href="https://github.com/AliKales" target="_blank"><object data="svgs/github.svg"
-            type="image/svg+xml"></object></a>
-        <a href="https://twitter.com/aliikaless" target="_blank"><object data="svgs/twitter.svg"
-            type="image/svg+xml"></object></a>
-        <a href="https://www.instagram.com/ali.kaless/" target="_blank"><object data="svgs/instagram.svg"
-            type="image/svg+xml"></object></a>
-        <a href="https://www.linkedin.com/in/alikales/" target="_blank"><object data="svgs/linkedin.svg"
-            type="image/svg+xml"></object></a>
-      </div>
-    </div>
-  </div>
-  <div id="about-me" class="custom-div">
-    <h1 style="color: #cc005f; text-align: center; margin-top: 80px; margin-bottom: 30px; font-size: 40px;">Summary
-    </h1>
-    <div class="row">
-      <img id="img-me" src="images/me.jpg" alt="Circle Image">
-      <h3 style="text-align: center;">I am a 21 years-old versatile software developer
-        with a primary focus on mobile application
-        development, coupled with backend technologies.
-        Within 5 years I have successfully developed
-        many projects that showcase my proficiency in
-        Flutter, Firebase, RESTFUL, Python, Go. Able to
-        work either remotely or in office depends on the
-        company.
-        <br>
-        <br>
-        Able to work either remotely or in office depends on the company
-        <br>
-        <br>
-        From Bursa/TURKIYE
-      </h3>
-    </div>
-  </div>
-  <div class="divider"></div>
-  <div id="my-skills" class="section">
-    <h1 style="color: #cc005f; text-align: center; margin-top: 80px; margin-bottom: 30px; font-size: 40px;">My
-      Skills
-    </h1>
-    <div class="row">
-      <button class="gm-btn gb-cutter">Flutter</button>
-      <button class="gm-btn gb-cutter">Dart</button>
-    </div>
-    <div class="row">
-      <button class="gm-btn gb-cutter">Firebase</button>
-      <button class="gm-btn gb-cutter">PostgreSQL</button>
-    </div>
-    <div class="row">
-      <button class="gm-btn gb-cutter">Kotlin</button>
-      <button class="gm-btn gb-cutter">SwiftUI</button>
-    </div>
-    <div class="row">
-      <button class="gm-btn gb-cutter">RESTful API</button>
-      <button class="gm-btn gb-cutter">Go</button>
-    </div>
-    <div class="row">
-      <button class="gm-btn gb-cutter">Javascript</button>
-      <button class="gm-btn gb-cutter">Python</button>
-    </div>
-  </div>
-  <div style="height: 15px;"></div>
-  <div class="divider"></div>
-  <div id="my-works" class="section">
-    <h1 style="color: #cc005f; text-align: center; margin-top: 80px; margin-bottom: 30px; font-size: 40px;">My
-      Works</h1>
-    <div class="works">
-      <img class="work-ss" src="images/hablo-phone.png" alt="First Image">
-      <div class="work-info">
-        <h3>Hablo Talk</h3>
-        <img class="work-logo" src="images/hablotalk.png" alt="Logo">
-        <p class="work-info-text">Hablo Talk is a chat application. People can make new friends from around the
-          world and chat with
-          them. Voice and video chat is also available. It has +1000 downloads on Google Play.</p>
-        <a href="https://play.google.com/store/apps/details?id=com.caroby.hablotalk" target="_blank"
-          class="custom-button" style="color: black;">SEE ON PLAY STORE</a>
-        <a href="https://apps.apple.com/us/app/hablo-talk-language-practice/id6502776443" target="_blank"
-          class="custom-button" style="color: black;">SEE ON APP STORE</a>
-      </div>
-    </div>
-    <div class="works">
-      <img class="work-ss" src="images/walnut-phone.png" alt="First Image">
-      <div class="work-info">
-        <h3>Shop App</h3>
-        <img class="work-logo" src="images/walnut.png" alt="Logo">
-        <p class="work-info-text">You can create, update, delete products. You can upload pictures. You can download CSV
-          file for your products. FRONTEND: Flutter - BACKEND: Strapi</p>
-        <a href="https://github.com/AliKales/walnut" target="_blank" class="custom-button" style="color: black;">SEE ON
-          GITHUB</a>
-      </div>
-    </div>
-    <div class="works">
-      <img class="work-ss" src="images/pinlogy-phone.png" alt="First Image">
-      <div class="work-info">
-        <h3>Pinlogy</h3>
-        <img class="work-logo" src="images/pinlogy.png" alt="Logo">
-        <p class="work-info-text">Pinlogy is a password manager app. You can create secure passwords and store
-          them encrypted. You can access your passwords on ANDROID - WEB - MAC - WINDOWS - IOS(soon)</p>
-        <a href="https://pinlogy.web.app/" target="_blank" class="custom-button"
-          style="color: black; margin-bottom: 20px;">GO TO
-          WEBSITE</a>
-      </div>
-    </div>
-    <div class="works">
-      <img class="work-ss" src="" alt="">
-      <div class="work-info">
-        <h3>Latest Go Project</h3>
-        <img class="work-logo" src="images/go.png" alt="Logo">
-        <p class="work-info-text">An API project with Gin - GORM - PostgreSQL. There is an authentication system
-          with tokens. Creating Store, Adding Products And a Cart System</p>
-        <a href="https://github.com/AliKales/go-shop" target="_blank" class="custom-button" style="color: black;">GO TO
-          CODE</a>
-      </div>
-    </div>
-    <a href="https://github.com/AliKales" target="_blank" class="custom-button"
-      style="color: black; margin-top: 70px;">FOR MORE PLEASE VISIT MY GITHUB</a>
-  </div>
-  <div style="height: 15px;"></div>
-  <div class="divider"></div>
-  <div class="section">
-    <h1 style="color: #cc005f; text-align: center; margin-top: 80px; margin-bottom: 30px; font-size: 40px;">My Study
-    </h1>
-    <div class="row">
-      <a href="https://www.anadolu.edu.tr/en" target="_blank" style="font-size: 26px;">Anadolu University </a>
-      <p style="font-size: 26px; margin-left: 7px;">- Programming</p>
-    </div>
-  </div>
-  <div style="height: 15px;"></div>
-  <div class="divider"></div>
+    </section>
+    <section class="wrap section" id="my-works" aria-labelledby="work-title">
+      <div class="section-heading"><div><p class="eyebrow">03 / SELECTED WORK</p><h2 id="work-title">Built from the ground up.</h2></div><p>Mobile, web, and the systems behind them.</p></div>
+      <article class="project project-ichibase"><div class="project-visual infra-visual" role="img" aria-label="ichibase brings PostgreSQL, MongoDB, Typesense, Redis, and Go authentication together"><span class="visual-caption">BACKEND AS A SERVICE</span><div class="infra-name">ichibase<span>_</span></div><div class="infra-services"><span>PostgreSQL</span><span>MongoDB</span><span>Typesense</span><span>Redis</span></div><div class="infra-auth"><span aria-hidden="true">↳</span> Authentication built in Go</div></div><div class="project-copy"><p class="eyebrow">01 / DEVELOPER PLATFORM</p><h3>ichibase</h3><p>A unified backend platform for developers. Databases, search, caching, and authentication come together in one place, ready to run on a VPS.</p><p class="project-role">Creator · Backend &amp; infrastructure</p><a class="text-link" href="https://ichibase.com">Explore ichibase ↗</a></div></article>
+      <article class="project project-hablo"><div class="project-visual hablo-visual"><span class="visual-caption">iOS · ANDROID · WEB</span><img src="images/hablo-phone.png" alt="Hablo Talk mobile app interface" width="739" height="1600" loading="lazy"></div><div class="project-copy"><p class="eyebrow">02 / SOCIAL &amp; MESSAGING</p><h3>Hablo Talk</h3><p>A place to make friends and connect through real-time chat. I built the mobile apps, web experience, and backend, and manage the product from development through release.</p><p class="project-role">Founder &amp; solo developer · 2024 — Present</p><ul class="tags" aria-label="Project technologies"><li>SwiftUI</li><li>Flutter</li><li>Nuxt / Vue</li><li>Supabase</li></ul><div class="project-links"><a class="text-link" href="https://hablotalk.com/">Website ↗</a><a class="text-link" href="https://apps.apple.com/us/app/hablo-talk-language-practice/id6502776443">App Store ↗</a><a class="text-link" href="https://play.google.com/store/apps/details?id=com.caroby.hablotalk">Google Play ↗</a></div></div></article>
+      <article class="project project-game"><div class="project-visual game-visual" role="img" aria-label="Decorative block puzzle illustration"><span class="visual-caption">PLAY IN THE BROWSER</span><div class="block-board" aria-hidden="true"><i></i><i></i><i class="empty"></i><i></i><i></i><i class="empty"></i><i></i><i class="empty"></i><i></i><i class="empty"></i><i></i><i></i><i></i><i class="empty"></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="empty"></i><i></i><i class="empty"></i><i></i><i></i></div></div><div class="project-copy"><p class="eyebrow">03 / BROWSER GAME</p><h3>Block Blast Online</h3><p>A browser-based puzzle game built with Unity and C#, compiled to WebGL. I handled the game logic, interface, and web publishing independently.</p><p class="project-role">Solo developer · 2024 — Present</p><ul class="tags" aria-label="Project technologies"><li>Unity</li><li>C#</li><li>WebGL</li></ul><a class="text-link" href="https://blockblastonline.net/">Play the game ↗</a></div></article>
+      <div class="more-work"><h3>More from my workbench</h3><div><a href="https://github.com/AliKales/walnut">Walnut <span>Flutter / Strapi shop app ↗</span></a><a href="https://pinlogy.web.app/">Pinlogy <span>Password manager ↗</span></a><a href="https://github.com/AliKales/go-shop">Go Shop API <span>Go / Gin / GORM / PostgreSQL ↗</span></a></div></div>
+    </section>
+    <section class="skills-section" id="my-skills" aria-labelledby="skills-title"><div class="wrap section"><p class="eyebrow">04 / TOOLKIT</p><h2 id="skills-title">The tools I build with.</h2><div class="skills-grid"><div><h3>Mobile</h3><p>SwiftUI<br>Flutter · Dart</p></div><div><h3>Frontend</h3><p>Vue · Nuxt · React<br>TypeScript · JavaScript</p></div><div><h3>Backend &amp; data</h3><p>Go · Node.js · Next.js · REST APIs<br>PostgreSQL · MongoDB · Redis<br>Typesense · Firebase · Supabase</p></div><div><h3>Game development</h3><p>Unity · C# · WebGL</p></div></div><div class="background-grid"><div><h3>Education</h3><p>Anadolu University · Computer Programming<br><span>Jun 2022 — Jul 2024</span></p><p>Ongoing learning through documentation and hands-on development.</p></div><div><h3>Languages</h3><p>Turkish · Native<br>English · Advanced<br>German · Intermediate<br>French &amp; Spanish · Elementary</p></div></div></div></section>
+    <section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="wrap section"><p class="eyebrow">05 / GET IN TOUCH</p><h2 id="contact-title">Have something<br>in mind?</h2><p>I'm open to new opportunities and collaborations.</p><a class="contact-email" href="mailto:ali_kales@hotmail.com">ali_kales@hotmail.com <span aria-hidden="true">↗</span></a><div class="contact-links"><a href="https://github.com/AliKales">GitHub ↗</a><a href="https://www.linkedin.com/in/alikales/">LinkedIn ↗</a><a href="https://apps.apple.com/us/developer/ali-kales/id1746579975">App Store ↗</a><a href="https://play.google.com/store/apps/developer?id=CAROBY">Google Play ↗</a><a href="ali-kales-cv.docx" download>Download CV ↓</a></div></div></section>
+  </main>
+  <footer class="wrap footer"><a class="wordmark" href="#start">ali kaleş<span>.</span></a><p>Full stack &amp; mobile developer · Bursa, Türkiye</p><a href="#start">Back to top ↑</a></footer>
 </body>
-
 </html>
